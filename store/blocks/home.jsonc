@@ -2,7 +2,7 @@
   "store.home": {
     "blocks": [
       "rich-text",
-      "info-card",
+      "info-card#button-right",
       "info-card#button-left"
     ]
   },
@@ -12,7 +12,7 @@
       "textPosition": "RIGHT"
     }
   },
-  "info-card": {
+  "info-card#button-right": {
     "props": {
     "isFullModeStyle": false,
     "textPosition": "right",
@@ -32,7 +32,7 @@
       "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-cinza-min.png",
       "headline": "Shining Chrome",
       "subhead": "Give your kitchen a cool style adding warm metallic.<br>Available until January 2020.",
-      "callToActionMode": "text",
+      "callToActionMode": "",
       "callToActionText": "Go to Collection",
       "callToActionUrl": "/sale/d",
       "textAlignment": "center"
