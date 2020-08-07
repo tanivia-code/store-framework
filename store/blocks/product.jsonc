@@ -45,6 +45,14 @@
     }
   },
 
+  "flex-layout.row#qty-sku": {
+    "children":[
+      "sku-selector",
+      "product-quality",
+      "shipping-simulator"
+    ]
+  },
+
   "product-price": {
     "props": {
       "showSavings": true,
