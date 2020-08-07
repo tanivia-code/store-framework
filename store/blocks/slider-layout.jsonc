@@ -10,7 +10,7 @@
     },
     "image#brand1": {
         "props": {
-            "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square1.png",
+            "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square1.png",
             "isFullModeStyle": true,
             "headline": "Black Friday",
             "callToActionText": "Subscribe",
@@ -19,7 +19,7 @@
     },
     "image#brand2": {
         "props": {
-            "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square2.png",
+            "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square2.png",
             "isFullModeStyle": true,
             "headline": "Black Friday",
             "callToActionText": "Subscribe",
@@ -28,7 +28,7 @@
     },
     "image#brand3": {
         "props": {
-            "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square3.png",
+            "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square3.png",
             "isFullModeStyle": true,
             "headline": "Black Friday",
             "callToActionText": "Subscribe",
@@ -37,7 +37,7 @@
     },
     "image#brand4": {
         "props": {
-            "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square4.png",
+            "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square4.png",
             "isFullModeStyle": true,
             "headline": "Black Friday",
             "callToActionText": "Subscribe",
@@ -46,7 +46,7 @@
     },
     "image#brand5": {
         "props": {
-            "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square5.png",
+            "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square5.png",
             "isFullModeStyle": true,
             "headline": "Black Friday",
             "callToActionText": "Subscribe",
@@ -55,7 +55,7 @@
     },
     "image#brand6": {
         "props": {
-            "imageUrl": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square6.png",
+            "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square6.png",
             "isFullModeStyle": true,
             "headline": "Black Friday",
             "callToActionText": "Subscribe",
