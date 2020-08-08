@@ -65,7 +65,7 @@
 
       "vtex.menu@2.x:menu#eletronics":{
         "children":[
-          "vtex.menu@2.x:submenu#eletronics",
+          "vtex.menu@2.x:submenu#electronics",
           "menu-item#cameras",
           "menu-item#laptops",
           "menu-item#tvs"
