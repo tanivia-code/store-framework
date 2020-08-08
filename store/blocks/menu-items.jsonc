@@ -1,5 +1,9 @@
 {
   "menu-item#major-appliances": {
+    "children":
+    [
+      "vtex.menu@2.x:submenu#major"
+    ],
       "props": {
       "type": "custom",
       "highlight": true,
@@ -9,6 +13,7 @@
     }
   },
   "menu-item#small-appliances": {
+    "children":["vtex.menu@2.x:submenu#smal"],
       "props":
     {
       "type": "category",
@@ -20,6 +25,7 @@
     }
   },
   "menu-item#electronics": {
+    "children":["vtex.menu@2.x:submenu#electronics"],
       "props":
     {
       "type": "category",
