@@ -20,7 +20,7 @@
       },
 
       "vtex.menu@2.x:menu#major":{
-        "children":[
+        "blocks":[
           "vtex.menu@2.x:submenu#major",
           "menu-item#refrigerators",
           "menu-item#ovens",
@@ -41,7 +41,7 @@
       },
 
       "vtex.menu@2.x:menu#small":{
-        "children":[
+        "blocks":[
           "vtex.menu@2.x:submenu#small",
           "menu-item#mixers",
           "menu-item#toasters",
@@ -62,7 +62,7 @@
       },
 
       "vtex.menu@2.x:menu#electronics":{
-        "children":[
+        "blocks":[
           "vtex.menu@2.x:submenu#electronics",
           "menu-item#cameras",
           "menu-item#laptops",
