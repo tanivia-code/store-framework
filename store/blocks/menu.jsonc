@@ -3,6 +3,7 @@
       "children": [
         "menu-item#major-appliances",
         "menu-item#small-appliances",
+        "vtex.menu@2.x:menu#major",
         "menu-item#electronics"
       ],
     
