@@ -11,7 +11,16 @@
       }
     }
   },
-
+  "vtex.menu@2.x:menu#major":{
+    "children":[
+      "menu-item#refrigerators",
+      "menu-item#ovens",
+      "menu-item#washers"
+    ],
+    "props":{
+        "orientation": "vertical"
+    }
+  },
   "menu-item#small-appliances": {
     "blocks":[
       "vtex.menu@2.x:submenu#small"
@@ -24,16 +33,6 @@
         "categoryId": 2, 
         "text": "Small Appliances"
       }
-    }
-  },
-  "vtex.menu@2.x:menu#major":{
-    "children":[
-      "menu-item#refrigerators",
-      "menu-item#ovens",
-      "menu-item#washers"
-    ],
-    "props":{
-        "orientation": "vertical"
     }
   },
   "vtex.menu@2.x:menu#small":{
