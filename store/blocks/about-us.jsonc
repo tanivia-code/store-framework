@@ -38,8 +38,7 @@
           "props": {
             "src": "https://www.instagram.com/p/B973Qp8BacC/embed",
             "width": 800,
-            "height": 1000,
-              "label": "Instagram"
+            "height": 1000
           }
     },
     "tab-content.item#1": {
@@ -59,8 +58,7 @@
         "props": {
             "src": "https://www.instagram.com/p/B973Qp8BacC/embed",
             "width": 800,
-            "height": 1000,
-            "label": "Instagram"
+            "height": 1000
         }
     },
     "tab-content#home": {
@@ -92,11 +90,11 @@
           "font": "t-heading-3"
         }
     },
-    "rich-text#home2": {
+    "iframe": {
         "props": {
-          "text": "Área do conteúdo da tab-list.item com  tabId = electronics",
-          "textPosition": "CENTER",
-          "font": "t-heading-3"
+            "src": "https://www.instagram.com/p/B973Qp8BacC/embed",
+            "width": 800,
+            "height": 1000
         }
     },
     "flex-layout.row#about-us": {
