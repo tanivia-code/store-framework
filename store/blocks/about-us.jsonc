@@ -49,9 +49,7 @@
             "rich-text#home1"
         ],
         "props": {
-            "tabId": "majorAppliances",
-            "label": "Major Appliances",
-            "text": "Major Appliances"
+            "tabId": "majorAppliances"
         }
     },
     "tab-content.item#home2":{
@@ -59,9 +57,7 @@
             "rich-text#home2"
         ],
         "props": {
-            "tabId": "electronics",
-            "label": "Electronics",
-            "text": "Electronics"
+            "tabId": "electronics"
         }
     },
     "rich-text#home1": {
@@ -70,7 +66,7 @@
           "textPosition": "CENTER",
           "font": "t-heading-3"
         }
-      },
+    },
     "rich-text#home2": {
         "props": {
           "text": "Área do conteúdo da tab-list.item com  tabId = electronics",
