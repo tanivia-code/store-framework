@@ -42,10 +42,7 @@
       "width": 20
     }
 },
-"flex-layout.col#left": {
-  "children": ["filter-navigator.v3"]
-},
-"flex-layout.col#right": {
+"flex-layout.col#search": {
   "children": ["search-content"]
 },
 "search-content": {
