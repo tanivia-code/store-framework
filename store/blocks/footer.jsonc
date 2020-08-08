@@ -20,7 +20,11 @@
     },
     "flex-layout.col#footer-left-desktop":{
         "children":[
-            "accepted-payment-methods",
+            "accepted-payment-methods"
+        ]
+    },
+    "flex-layout.col#footer-right-desktop":{
+        "children":[
             "social media"
         ]
     },
@@ -30,7 +34,8 @@
                 "mastercard",
                 "visa",
                 "diners club"
-            ]
+            ],
+            "showInColor": true
         }
     },
     "social-networks": {
