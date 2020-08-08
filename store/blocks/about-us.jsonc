@@ -50,7 +50,7 @@
         ],
         "props": {
             "tabId": "majorAppliances",
-            "label": "Major Appliances"
+            "text": "Major Appliances"
         }
     },
     "tab-content.item#home2":{
@@ -59,7 +59,7 @@
         ],
         "props": {
             "tabId": "electronics",
-            "label": "Electronics"
+            "text": "Electronics"
         }
     },
     "rich-text#home1": {
