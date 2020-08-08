@@ -4,7 +4,8 @@
         "flex-layout.row#about-us",
         "tab-layout#home",
         "tab-list#home",
-        "tab-content#home"
+        "tab-content#home",
+        "tab-list.item#home"
       ]
     },
     "tab-layout#home": {
