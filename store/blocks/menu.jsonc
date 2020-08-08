@@ -63,7 +63,6 @@
 
       "vtex.menu@2.x:menu#electronics":{
         "blocks":[
-          "vtex.menu@2.x:submenu#electronics",
           "menu-item#cameras",
           "menu-item#laptops",
           "menu-item#tvs"
