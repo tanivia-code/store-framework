@@ -11,6 +11,19 @@
       }
     }
   },
+
+  "vtex.menu@2.x:menu#major":{
+    "children":[
+      "vtex.menu@2.x:submenu#major",
+      "menu-item#refrigerators",
+      "menu-item#ovens",
+      "menu-item#washers"
+    ],
+    "props":{
+        "orientation": "vertical"
+    }
+  },
+  
   "menu-item#small-appliances": {
     "blocks":[
       "vtex.menu@2.x:submenu#small"
