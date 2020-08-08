@@ -63,7 +63,7 @@
         }
       },
 
-      "vtex.menu@2.x:menu#eletronics":{
+      "vtex.menu@2.x:menu#electronics":{
         "children":[
           "vtex.menu@2.x:submenu#electronics",
           "menu-item#cameras",
