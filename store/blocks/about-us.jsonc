@@ -22,7 +22,7 @@
     },
     "tab-content.item#1": {
         "children": [
-          "rich-text#1"
+          "rich-text#home1"
         ],
         "props": {
           "tabId": "majorAppliances",
@@ -32,7 +32,7 @@
     },
     "tab-content.item#2": {
         "children": [
-          "rich-text#1"
+          "rich-text#home2"
         ],
         "props": {
             "tabId": "electronics",
