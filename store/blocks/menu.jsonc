@@ -19,33 +19,9 @@
         }
       },
 
-      "vtex.menu@2.x:menu#major":{
-        "blocks":[
-          "vtex.menu@2.x:submenu#major",
-          "menu-item#refrigerators",
-          "menu-item#ovens",
-          "menu-item#washers"
-        ],
-        "props":{
-            "orientation": "vertical"
-        }
-      },
-
       "vtex.menu@2.x:submenu#small":{
         "children":[
           "vtex.menu@2.x:menu#small"
-        ],
-        "props":{
-            "orientation": "vertical"
-        }
-      },
-
-      "vtex.menu@2.x:menu#small":{
-        "blocks":[
-          "vtex.menu@2.x:submenu#small",
-          "menu-item#mixers",
-          "menu-item#toasters",
-          "menu-item#coffee"
         ],
         "props":{
             "orientation": "vertical"
