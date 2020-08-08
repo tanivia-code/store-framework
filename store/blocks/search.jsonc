@@ -18,8 +18,6 @@
       "flex-layout.row#top",
       "search-fetch-previous",
       "flex-layout.row#results",
-      "flex-layout.col#left",
-      "flex-layout.col#right",
       "search-fetch-more"
     ]
   },
