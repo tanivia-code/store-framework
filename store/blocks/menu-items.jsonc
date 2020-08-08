@@ -40,6 +40,16 @@
       }
     }
   },
+  "vtex.menu@2.x:menu#electronics":{
+    "children":[
+      "menu-item#cameras",
+      "menu-item#laptops",
+      "menu-item#tvs"
+    ],
+    "props":{
+        "orientation": "vertical"
+    }
+  },
   "menu-item#refrigerators": {
       "props":
     {
