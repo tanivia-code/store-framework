@@ -14,7 +14,7 @@
 },
 "search-result-layout.customQuery": {
     "props": {
-      "querySchema": {
+        "context": {
         "skusFilter": "FIRST_AVAILABLE",
         "simuationBehavior": "skip",
         "maxItemsPerPage": 8,
