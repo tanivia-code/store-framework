@@ -11,6 +11,10 @@
       }
     },
 
+    "menu-item#major-appliances":{
+        "children":["vtex.menu@2.x:submenu#major"]
+    },
+
     "vtex.menu@2.x:submenu#major":{
         "children":[
           "vtex.menu@2.x:menu#major"
@@ -54,9 +58,9 @@
         }
       },
 
-      "vtex.menu@2.x:submenu#eletronics":{
+      "vtex.menu@2.x:submenu#electronics":{
         "children":[
-          "vtex.menu@2.x:menu#eletronics"
+          "vtex.menu@2.x:menu#electronics"
         ],
         "props":{
             "orientation": "vertical"
