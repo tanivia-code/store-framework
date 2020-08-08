@@ -4,17 +4,12 @@
         "menu-item#major-appliances",
         "menu-item#small-appliances",
         "menu-item#electronics"
-      ],
-  
-      "props":{
-        "orientation": "horizontal"
-      }
+      ]
     },
 
     "vtex.menu@2.x:submenu#major":{
         "children":[
           "vtex.menu@2.x:menu#major"
-
         ],
         "props":{
             "orientation": "vertical"
