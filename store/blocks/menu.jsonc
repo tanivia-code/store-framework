@@ -53,14 +53,17 @@
         }
       },
 
-      "menu-item#electronics":{
+      "vtex.menu@2.x:menu#eletronics":{
         "children":[
-            "vtex.menu@2.x:submenu#electronics"
+          "vtex.menu@2.x:submenu#eletronics",
+          "menu-item#cameras",
+          "menu-item#laptops",
+          "menu-item#tvs"
         ],
         "props": {
             "orientation": "vertical"
         }
-    },
+      },
 
       "vtex.menu@2.x:submenu#electronics":{
         "children":[
