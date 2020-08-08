@@ -10,8 +10,7 @@
         "children": [
             "menu-item#refrigerators",
             "menu-item#ovens",
-            "menu-item#washers",
-            "flex-layout.row#major"
+            "menu-item#washers"
         ],
         "props": {
             "orientation": "vertical"
