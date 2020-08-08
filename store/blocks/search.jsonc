@@ -30,20 +30,24 @@
   "flex-layout.row#results": {
     "children": [
       "flex-layout.col#left",
-      "flex-layout.col#right",
+      "flex-layout.col#leftright",
       "flex-layout.col#filter",
       "flex-layout.col#search",
       "search-content"
     ]
   },
-  "flex-layout.col#filter": {
-    "children": ["filter-navigator.v3"],
+  "flex-layout.col#left": {
+    "children": ["flex-layout.col#filter"],
     "props": {
-      "width": 20
+      "horizontalAlign": "left",
+      "width": "20%"
     }
 },
-"flex-layout.col#search": {
-  "children": ["search-content"]
+"flex-layout.col#right": {
+  "children": ["flex-layout.col#search"],
+  "props": {
+    "horizontalAlign": "right"
+  }
 },
 "search-content": {
   "blocks": ["gallery", "not-found"]
