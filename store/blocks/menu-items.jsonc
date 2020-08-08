@@ -4,7 +4,6 @@
       "vtex.menu@2.x:submenu#major"
     ],
       "props": {
-      "orientation": "vertical",
       "type": "custom",
       "highlight": true,
       "itemProps": {
@@ -18,7 +17,6 @@
     ],
       "props":
     {
-      "orientation": "vertical",
       "type": "category",
       "highlight": true,
       "itemProps": {
@@ -33,7 +31,6 @@
     ],
       "props":
     {
-      "orientation": "vertical",
       "type": "category",
       "highlight": true,
       "itemProps": {
