@@ -1,80 +1,27 @@
 {
-  "store.search": {
-     "blocks": [
-      "search-result-layout", 
-      "breadcrumb.search",
-      "search-title.v2",
-      "total-products.v2",
-      "order-by.v2",
-      "search-fetch-more",
-      "search-fetch-previous",
-      "filter-navigator.v3",
-      "search-content"
-    ],
-    "props": {
-      "context": {
-        "skusFilter": "FIRST_AVAILABLE",
-        "simulationBehavior": "skip"
-      }
-  },
-  "search-result-layout": {
-     "blocks": [
-        "search-result-layout.desktop",
-        "search-result-layout.mobile",
-        "search-not-found-layout"
-     ]
-  },
-  "search-result-layout.desktop": {
-    "children": [
-      "flex-layout.row#searchbread",
-      "flex-layout.row#searchtitle",
-      "flex-layout.row#result"
-    ],
-    "props": {
-      "preventRouteChange": true
-    }
-  },
-  "breadcrumb": {
-    "props": {
-      "showOnMobile": true
-    }
-  },
-
-  "store.search#category": {
-    "blocks": ["search-result-layout"],
-    "props": {
-        "context": {
-            "skusFilter": "FIRST_AVAILABLE",
-            "simulationBehavior": "skip"
-        }
-     }
-  },
-  "store.search#brand": {
-    "blocks": ["search-result-layout"],
-    "props": {
-        "context": {
-            "skusFilter": "FIRST_AVAILABLE",
-            "simulationBehavior": "skip"
-        }
-     }
-  },
-  "store.search#department": {
-    "blocks": ["search-result-layout"],
-    "props": {
-        "context": {
-            "skusFilter": "FIRST_AVAILABLE",
-            "simulationBehavior": "skip"
-        }
-     }
-  },
-  "store.search#subcategory": {
-    "blocks": ["search-result-layout"],
-    "props": {
-        "context": {
-            "skusFilter": "FIRST_AVAILABLE",
-            "simulationBehavior": "skip"
-        }
-     }
-  }
-
+   "store.search": {
+     "blocks": ["search-result-layout"]
+   },
+ 
+   "search-result-layout": {
+     "blocks": [
+       "search-result-layout.desktop",
+       "search-result-layout.mobile",
+       "search-not-found-layout"
+     ]
+   },
+ 
+   "search-result-layout.desktop": {
+     "children": [
+       "breadcrumb.search",
+       "search-title.v2",
+       "total-products.v2",
+       "order-by.v2",
+       "search-fetch-previous",
+       "search-content",
+       "filter-navigator.v3",
+       "search-fetch-more"
+     ]
+   }
  }
+ 
