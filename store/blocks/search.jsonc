@@ -18,6 +18,8 @@
       "flex-layout.row#top",
       "search-fetch-previous",
       "flex-layout.row#results",
+      "flex-layout.col#left",
+      "flex-layout.col#right",
       "search-fetch-more"
     ]
   },
@@ -30,29 +32,24 @@
   "flex-layout.row#results": {
     "children": [
       "flex-layout.col#left",
-      "flex-layout.col#leftright",
-      "flex-layout.col#filter",
-      "flex-layout.col#search",
-      "search-content"
+      "flex-layout.col#right"
     ]
   },
   "flex-layout.col#left": {
-    "children": ["flex-layout.col#filter"],
-    "props": {
-      "horizontalAlign": "left",
+    "children":[
+      "search-content"
+    ],
+    "props":{
       "width": "20%"
     }
-},
-"flex-layout.col#right": {
-  "children": ["flex-layout.col#search"],
-  "props": {
-    "horizontalAlign": "right"
+  },
+  "flex-layout.col#right": {
+    "children": ["search-content"]
+  },
+  "search-content": {
+    "blocks": ["gallery", "not-found"]
+  },
+  "gallery": {
+    "blocks": ["product-summary.shelf"]
   }
-},
-"search-content": {
-  "blocks": ["gallery", "not-found"]
-},
-"gallery": {
-  "blocks": ["product-summary.shelf"]
-}
 }
