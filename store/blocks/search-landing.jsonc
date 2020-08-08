@@ -11,7 +11,7 @@
         "src": "https://www.instagram.com/p/B973Qp8BacC/embed"
     }
 },
-"search-result-layout.customQuery#home": {
+"search-result-layout.customQuery": {
     "props": {
       "querySchema": {
         "skusFilter": "FIRST_AVAILABLE",
