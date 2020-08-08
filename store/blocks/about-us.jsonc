@@ -20,6 +20,25 @@
             "tab-list.item#home2"
         ]
     },
+    "tab-list.item#home1": {
+        "children": [
+            "rich-text#home1"
+          ],
+          "props": {
+            "tabId": "majorAppliances",
+            "label": "Major Appliances",
+            "defaultActiveTab": true
+      }
+    },
+    "tab-list.item#home2": {
+        "children": [
+            "rich-text#home2"
+          ],
+          "props": {
+              "tabId": "electronics",
+              "label": "Electronics"
+          }
+    },
     "tab-content.item#1": {
         "children": [
           "rich-text#home1"
