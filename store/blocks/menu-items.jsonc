@@ -25,9 +25,13 @@
     }
   },
   "menu-item#electronics": {
-    "children":["vtex.menu@2.x:submenu#electronics"],
+    "children":[
+      "vtex.menu@2.x:menu#electronics",
+      "menu-item#cameras",
+      "menu-item#laptops",
+      "menu-item#tvs"],
       "props":
-    {
+    { "orientation": "vertical",
       "type": "category",
       "highlight": true,
       "itemProps": {
